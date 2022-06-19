@@ -1,0 +1,511 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+p {
+  font-size: 15px;
+  font-family: Mulish, sans-serif;
+  color: rgb(61, 61, 61);
+  font-weight: 400;
+  line-height: 25px;
+  margin: 0px 0px 15px;
+
+}
+
+body {
+  background: rgb(11, 12, 42);
+  color:  #fff;
+}
+
+.header {
+	background: rgb(7, 7, 32);
+	height: 62.5px;
+}
+
+
+.header_logo {
+	display: inline-block;
+  margin-right: 10%;
+}
+
+.header_logo {
+	padding: 20 15px;
+
+}
+
+.header_nav {
+  margin-right: 10%;
+}
+
+.header_menu {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.header_menu > a {
+	line-height: 62.5px;
+}
+
+.header_menu li {
+	display: inline-block;
+	position: relative;
+  z-index: 99;
+}
+
+.dropdown {
+	position: absolute;
+}
+
+.nav > li > a {
+	line-height: 62.5px;
+	padding: 0 20px;
+	color: rgb(183, 183, 183);
+  transition: all 0s ease 0s, all 0.5s ease 0s;
+}
+
+.nav > li:hover > a {
+  color: rgb(255, 255, 255);
+  
+}
+
+.nav li:hover .dropdown {
+	display: block;
+}
+
+.nav .dropdown {
+	display: none
+}
+
+.nav span {
+  color: #fff;
+}
+
+.dropdown {
+  background-color: #fff;
+}
+
+.dropdown li a {
+	color: black;
+}
+
+.dropdown li {
+  padding: 10px 20px;
+  width: 140px;
+}
+
+.header_right  i {
+  color:rgb(7, 7, 32)
+}
+
+.account  i {
+  color:fff;
+}
+.account {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+.search-box {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  top: 30px;
+  right: -50px;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.search-btn {
+  float: right;
+  width: 30px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  font-size: 16px;
+  width: 240px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+  flex: 1 0 100%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 411px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 411px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  top: 20px;
+}
+
+.active, .dot:hover {
+  background-color: rgb(229, 54, 55)
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.row1 {
+  max-width: 750px;
+
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar_title,
+.live_title,
+.recently_title,
+.popular_title,
+.trending_title {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Oswald, sans-serif;
+  position: relative;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  left: 0;
+  line-height: 21px;
+  display: inline-block;
+}
+
+.trending_title h4::after{
+  position: absolute;
+  left: -20px;
+  top: -6px;
+  height: 32px;
+  width: 4px;
+  content: "";
+  background: rgb(229, 54, 55);
+}
+
+.popular_title h4::after{
+  position: absolute;
+  left: -20px;
+  top: -6px;
+  height: 32px;
+  width: 4px;
+  content: "";
+  background: rgb(229, 54, 55);
+}
+
+.recently_title h4::after{
+  position: absolute;
+  left: -20px;
+  top: -6px;
+  height: 32px;
+  width: 4px;
+  content: "";
+  background: rgb(229, 54, 55);
+}
+
+.live_title h4::after{
+  position: absolute;
+  left: -20px;
+  top: -6px;
+  height: 32px;
+  width: 4px;
+  content: "";
+  background: rgb(229, 54, 55);
+}
+
+.sidebar_title h4::after{
+  position: absolute;
+  left: -20px;
+  top: -6px;
+  height: 32px;
+  width: 4px;
+  content: "";
+  background: rgb(229, 54, 55);
+}
+
+.product_image {
+  position: relative;
+  height: 325px;
+  border-radius: 5px;
+}
+
+.product_image .comment {
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  background: rgb(61, 61, 61);
+  padding: 2px 10px;
+  border-radius: 4px;
+}
+
+.product_image .ep {
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background: rgb(229, 54, 55);
+  padding: 2px 12px;
+  border-radius: 4px;
+}
+
+
+
+.product_image .view {
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: rgb(61, 61, 61);
+  padding: 2px 10px;
+  border-radius: 4px;
+}
+
+.product_item {
+  flex: 0 0 229.98px;
+  padding:0 15px  ;
+}
+
+.product_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product_text {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.product_text ul {
+  margin-bottom: 10px;
+}
+
+.product_text ul li {
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  display: inline-block;
+  list-style: none;
+  padding: 1px 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+}
+
+.product_text h5 {
+  font-size: 18px;
+  font-family: Mulish, sans-serif;
+  margin: 0px;
+}
+
+.product_text h5 a {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.row2 {
+  width: 360px;
+}
+
+.sidebar_view {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.sidebar_view .time {
+  font-family: Mulish, sans-serif;
+  position: absolute;
+  right: 0;
+  top: 22px;
+}
+
+.time li {
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  list-style: none;
+  margin-right: 7px;
+}
+
+
+.product_sidebar1 {
+  height: 190px;
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.product_sidebar1 h5 {
+  position: absolute;
+  left: 0px;
+  bottom: 25px;
+  width: 100%;
+  padding: 0px 30px 0px 20px;
+}
+
+.product_sidebar1 h5 a {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  line-height: 26px;
+  font-size: 18px ;
+}
+
+.sidebar_comment1 {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.sidebar_comment1 .comment_pic {
+  float: left;
+  margin-right: 15px;
+}
+
+.comment_text ul {
+  margin-bottom: 10px;
+}
+
+.comment_text ul li {
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  display: inline-block;
+  list-style: none;
+  padding: 1px 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+}
+
+.comment_text h5 {
+  margin-bottom: 10px;
+}
+
+.comment_text h5 a {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  line-height: 26px;
+  font-size: 18px;
+  font-family: Mulish, sans-serif;
+}
+
+.footer {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background: rgb(7, 7, 32);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .logofooter {
+  max-width: 25%;
+  flex: 0 0 10%;
+}
+
+.container .menufooter {
+  text-align: center;
+}
+
+.menufooter ul li {
+  display: inline-block;
+    position: relative;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.menufooter ul li a {
+  font-size: 15px;
+  color: rgb(183, 183, 183);
+  display: block;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
