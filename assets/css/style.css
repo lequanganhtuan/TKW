@@ -502,10 +502,205 @@ body {
   font-weight: 700;
 }
 
+/* end */
+
+.bannerlogin {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.bannerlogin .mainbn h2 {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-family: Oswald, sans-serif;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+.bannerlogin .mainbn p {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  margin-bottom: 0px;
+  font-family: Mulish, sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 0px 0px 15px;
+}
 
 
 
+.login-wrap .login-input h3 {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-family: Oswald, sans-serif;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
 
+.input-item {
+  position: relative;
+  width: 370px;
+  margin-bottom: 20px;
+}
 
+.input-item input {
+  height: 50px;
+    width: 100%;
+    font-size: 15px;
+    color: rgb(183, 183, 183);
+    padding-left: 76px;
+    background: rgb(255, 255, 255);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    overflow: visible;
+}
 
+.input-item span {
+    color: rgb(183, 183, 183);
+    font-size: 20px;
+    position: absolute;
+    left: 15px;
+    top: 13px;
+}
 
+.site-btn {
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 0px;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  background: rgb(229, 54, 55);
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  padding: 12px 30px;
+}
+
+.login-input .forget-pass {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  position: absolute;
+  right: 60px;
+  bottom: 12px;
+}
+
+.login-register {
+  padding-left: 45px;
+  
+}
+
+.login-register h3 {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-family: Oswald, sans-serif;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.login-register .primary-btn {
+  background: rgb(229, 54, 55);
+  padding: 12px 42px;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+}
+
+.login-input{
+  position: relative;
+  /* padding: 0 15px; */
+}
+
+.login-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.login-input::after {
+  position: absolute;
+  right: -14px;
+  top: -40px;
+  height: 330px;
+  width: 1px;
+  content: "";
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.login-form {
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+
+.login-social-wrap {
+  display: flex;
+  justify-content: center
+}
+
+.login-link {
+  text-align: center;
+}
+
+.login-link span {
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.login-link ul li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.login-link ul li a{
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 460px;
+  position: relative;
+  padding: 14px 0px;
+  margin: 0px auto;
+}
+
+.login-link ul li a i {
+  font-size: 20px;
+  position: absolute;
+  left: 32px;
+  top: 14px;
+}
+
+.login-link ul li a.facebook {
+  background: rgb(66, 103, 178);
+}
+
+.login-link ul li a.google {
+  background: rgb(255, 67, 67);
+}
+
+.login-link ul li a.twitter {
+  background: rgb(29, 161, 242);
+}
+
+.login-social {
+  padding-top: 52px;
+}
