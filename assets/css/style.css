@@ -19,7 +19,7 @@ p {
 }
 
 body {
-  background: rgb(11, 12, 42);
+  background: rgb(6, 6, 6);
   color:  #fff;
 }
 
@@ -92,9 +92,23 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular';
   margin-left: 7rem;
 }
-.view_count{
-  
+.leaderboard {
+  width: 100%;
+  margin: 5rem auto;
+  border-radius: 1rem;
+  font-family: sans-serif;
 }
+table{
+  width: 100%;
+}
+td .thumbnail img{
+  width: 100px;
+  height: 150px;
+}
+tbody{
+  background-color: rgb(53, 49, 49);
+}
+
 .dropdown {
 	position: absolute;
 }
