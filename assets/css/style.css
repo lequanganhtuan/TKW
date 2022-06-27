@@ -68,8 +68,8 @@ body {
 .view_count span{
   font-size: 30px;
   font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif
-  margin-bottom: -40rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 4rem;
   margin-left: 60rem;
 }
 .ranking_nav{
