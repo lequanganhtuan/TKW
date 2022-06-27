@@ -100,17 +100,17 @@ header nav a:hover{
   font-family: 'Lucida Sans', 'Lucida Sans Regular';
 }
 .img_headline{
-  margin-left: 6rem;
+  margin-left: 8rem;
   /* margin-bottom: 6rem; */
 }
 .img_headline img{
   width: 100px;
 }
 .text_headline{
+  float: left;
   font-size: 30px;
   font-weight: 700;
   font-family: 'Lucida Sans', 'Lucida Sans Regular';
-  margin-left: 7rem;
 }
 .leaderboard {
   width: 100%;
@@ -783,4 +783,9 @@ tbody{
 
 .login-social {
   padding-top: 52px;
+}
+
+
+.clear {
+  clear: both;
 }
