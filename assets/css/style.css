@@ -101,7 +101,7 @@ header nav a:hover{
 }
 .img_headline{
   margin-left: 6rem;
-  margin-bottom: 6rem;
+  /* margin-bottom: 6rem; */
 }
 .img_headline img{
   width: 100px;
@@ -114,7 +114,7 @@ header nav a:hover{
 }
 .leaderboard {
   width: 100%;
-  margin: 5rem auto;
+  margin-top:0;
   font-family: sans-serif;
 }
 table{
